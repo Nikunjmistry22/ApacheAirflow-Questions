@@ -19,7 +19,7 @@ DAG stands for Directed Acyclic Graph. In Apache Airflow, a DAG is a collection 
 <li><h2>What is a task in Apache Airflow?</h2>
 A task is a unit of work in Apache Airflow. It is a single operation that needs to be performed in a DAG. A task can be any Python function, Bash script, or executable, and can be customized with various parameters such as retries, priority, and timeout.
 
-<li><h2>Implement tag and dag in apache airflow</h2>
+<li><h2>Implement Task and Dag in apache airflow</h2>
 from airflow import DAG<br>
 from airflow.operators.bash_operator import BashOperator<br>
 from datetime import datetime
